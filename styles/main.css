@@ -23,3 +23,102 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+html, body {
+  height: 100%;
+  font-family: arial, sans-serif;
+}
+
+header {
+  padding: 20px 20px 0 20px;
+}
+
+a {
+  font-size: 13px;
+  color: #000;
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000;
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.header-top {
+  height: 80px;
+  min-width: max-content;
+}
+
+.search-form, .logo {
+  display: inline-block;
+}
+
+.account-nav {
+  float: right;
+  padding: 15px 10px 0 10px;
+}
+
+.account-nav a {
+  vertical-align: text-top;
+}
+
+.logo {
+  vertical-align: middle;
+  padding: 5px 20px 0 10px;
+}
+
+.search-field {
+  height: 40px;
+  width: 610px;
+  border-radius: 25px;
+  border: 1px solid #dfe1e5;
+  padding-left: 25px;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.search-field:hover, .search-field:focus {
+  box-shadow: 0 1px 3px 1px #e0dbdb;
+  outline: none;
+}
+
+.apps-link {
+  display: inline-block;
+  background-image: url("../assets/icon.png");
+  height: 15px;
+  width: 15px;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-origin: content-box;
+  opacity: 0.55;
+}
+
+.sign-in-button {
+  background: #4285f4;
+  opacity: 1;
+  margin-left: 15px;
+  padding: 7px 12px 7px 12px;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.apps-link:hover {
+  opacity: 1;
+}
+
+.sign-in-button:hover {
+  text-decoration: none;
+  cursor: default;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.sign-in-button:visited {
+  color: #ffffff;
+}
