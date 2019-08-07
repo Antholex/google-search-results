@@ -31,6 +31,7 @@ html, body {
 
 header {
   padding: 20px 20px 0 20px;
+  border-bottom: 1px solid #e8e8e8;
 }
 
 a {
@@ -51,8 +52,8 @@ a:hover {
 }
 
 .header-top {
-  height: 80px;
   min-width: max-content;
+  padding-bottom: 25px;
 }
 
 .search-form, .logo {
@@ -121,4 +122,28 @@ a:hover {
 
 .sign-in-button:visited {
   color: #ffffff;
+}
+
+.main-nav {
+  padding-left: 145px;
+}
+
+.main-nav-items li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 10px 0 10px;
+}
+
+.main-nav-items a:hover {
+  color: #4285f4;
+  text-decoration: none;
+}
+
+.search-result-types {
+  padding-right: 150px;
+  display: inline-block;
+}
+
+.search-tools {
+  display: inline-block;
 }
