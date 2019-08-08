@@ -128,22 +128,26 @@ a:hover {
   padding-left: 145px;
 }
 
-.main-nav-items li {
-  display: inline-block;
-  list-style: none;
-  padding: 0 10px 0 10px;
-}
-
-.main-nav-items a:hover {
+.search-type a:hover, .search-settings a:hover {
   color: #4285f4;
   text-decoration: none;
 }
 
-.search-result-types {
-  padding-right: 150px;
+.search-type, .search-tools, .search-settings {
   display: inline-block;
+  list-style: none;
+  padding: 0 10px 13px 10px;
 }
 
-.search-tools {
-  display: inline-block;
+.more-options {
+  padding-right: 150px;
+}
+
+.active {
+  border-bottom: 3px solid #4285f4;
+}
+
+.active a {
+  color: #4285f4;
+  opacity: 1;
 }
