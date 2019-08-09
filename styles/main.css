@@ -125,17 +125,22 @@ a:hover {
 }
 
 .main-nav {
-  padding-left: 145px;
+  padding: 0 0 15px 145px;
 }
 
 .search-type a:hover, .search-settings a:hover {
   color: #4285f4;
   text-decoration: none;
+  opacity: 1;
+  fill: #4285f4;
 }
 
 .search-type, .search-tools, .search-settings {
   display: inline-block;
   list-style: none;
+}
+
+.search-type a, .search-tools a, .search-settings a {
   padding: 0 10px 13px 10px;
 }
 
@@ -144,10 +149,19 @@ a:hover {
 }
 
 .active {
+  color: #4285f4;
+  opacity: 1;
   border-bottom: 3px solid #4285f4;
 }
 
-.active a {
+.active:visited {
   color: #4285f4;
-  opacity: 1;
+}
+
+.search-icon {
+  height: 16px;
+  width: 16px;
+  vertical-align: bottom;
+  padding-right: 5px;
+  display: inline-block;
 }
