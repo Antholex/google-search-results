@@ -135,13 +135,26 @@ a:hover {
   fill: #4285f4;
 }
 
+.search-tools a:hover {
+  text-decoration: none;
+  background: #f3f3f3;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 0.5px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  margin: -1px;
+}
+
 .search-type, .search-tools, .search-settings {
   display: inline-block;
   list-style: none;
 }
 
-.search-type a, .search-tools a, .search-settings a {
+.search-type a, .search-settings a {
   padding: 0 10px 13px 8px;
+}
+
+.search-tools a {
+  padding: 6px 12px;
 }
 
 .more-options {
