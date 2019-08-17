@@ -34,6 +34,18 @@ header {
   border-bottom: 1px solid #e8e8e8;
 }
 
+main {
+  padding-bottom: 600px;
+}
+
+footer {
+  height: 80px;
+  bottom: 0;
+  width: 100%;
+  margin-top: -82px;
+  background: #f2f2f2;
+}
+
 a {
   font-size: 13px;
   color: #000;
@@ -181,4 +193,39 @@ a:hover {
 
 .more-icon {
   padding-right: 0;
+}
+
+.footer-top, .footer-bottom {
+  height: 40px;
+  border-top: 1px solid #e8e8e8;
+  line-height: 40px;
+  padding-left: 165px;
+}
+
+.footer-nav-item {
+  display: inline-block;
+}
+
+.footer-country, .location-information {
+  display: inline-block;
+}
+
+.footer-country p {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.location-information p {
+  font-size: 13px;
+  color: #5f6368;
+}
+
+.footer-nav a, .location-information a {
+  color: #5f6368;
+  opacity: 1;
+}
+
+.footer-nav a:hover, .location-information a:hover {
+  text-decoration: none;
+  color: #000;
 }
