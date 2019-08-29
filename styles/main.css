@@ -254,3 +254,12 @@ strong {
   display: inline-block;
   border-radius: 50%;
 }
+
+.results-number {
+  padding: 10px 0 10px 8px;
+}
+
+.results-number p {
+  font-size: 14px;
+  color: #777777;
+}
