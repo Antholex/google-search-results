@@ -290,8 +290,28 @@ strong {
   color: #006621;
 }
 
+.advert {
+  font-size: 12px;
+  margin-right: 9px;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 1px 3px 0 2px;
+}
+
 .search-result-abstract {
   font-size: 14px;
   line-height: 1.57;
   color: #545454;
+}
+
+.secondary-results {
+  padding: 14px 0 0 20px;
+  width: 100%;
+}
+
+.secondary-search-result {
+  list-style: none;
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
 }
