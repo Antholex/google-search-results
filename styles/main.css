@@ -264,6 +264,10 @@ strong {
   color: #777777;
 }
 
+.search-results {
+  width: 630px;
+}
+
 .search-result {
   list-style: none;
   padding: 10px 0 20px 8px;
